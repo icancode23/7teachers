@@ -1,0 +1,22 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: DTUAttendance(Teachers)_com.AttendanceSimplified.vaibhav.dtuattendance.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '8'
+  versionName: '3.2'

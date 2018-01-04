@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#3fb399" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+    <TextView android:textSize="19sp" android:textColor="#ffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tv1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601" android:text="Attendance Simplified" android:layout_toRightOf="@+id/blogout" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0" android:layout_below="@+id/tv1">
+        <ScrollView android:id="@+id/sv1" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x17d01" android:fillViewport="false" android:layout_weight="0.9">
+            <TableLayout android:id="@+id/tableforSlots" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="79dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        </ScrollView>
+        <ProgressBar android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/progressBar" android:layout_width="UNKNOWN_DATA_0x2302" android:layout_height="UNKNOWN_DATA_0x2302" android:progressDrawable="@drawable/circular_progress_view" android:layout_below="@+id/sv1" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 101007a" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3501" android:weightSum="1.0">
+            <Button android:textSize="20sp" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/upattend" android:background="#3fb399" android:layout_width="UNKNOWN_DATA_0xad01" android:layout_height="wrap_content" android:text=" Edit Attendance" android:shadowColor="#a8a8a8" android:layout_weight="1.11" style="?unknown_attr_ref: 1010049" />
+            <Button android:textSize="20sp" android:textColor="#ffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/b2" android:background="#3fb399" android:layout_width="UNKNOWN_DATA_0xaf01" android:layout_height="UNKNOWN_DATA_0x4801" android:text=" Unmarked Slots" android:shadowColor="#a8a8a8" style="?unknown_attr_ref: 1010049" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@+id/blogout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Logout" android:layout_alignBaseline="@+id/tv1" android:layout_alignBottom="@+id/tv1" android:layout_alignParentLeft="true" />
+    <Button android:id="@+id/bsync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sync" android:layout_alignBaseline="@+id/tv1" android:layout_alignTop="@+id/blogout" android:layout_alignBottom="@+id/tv1" android:layout_alignParentRight="true" />
+</RelativeLayout>

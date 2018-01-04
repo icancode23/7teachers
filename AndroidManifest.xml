@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="8" android:versionName="3.2" package="com.AttendanceSimplified.vaibhav.dtuattendance">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:theme="@style/AppTheme" android:label="DTU Attendance (Teachers)" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="DTU Attendance (Teachers)" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_front" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.front" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_get_slots" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.GetSlots" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_unmarked_slots" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.Unmarked_slots" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_edit_attendance" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.EditAttendance" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_insidelogin_test" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.insidelogin_test" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_inside_edit" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.insideEdit" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_done" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.Done" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_update_password" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.UpdatePassword" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_bregact" android:name="com.AttendanceSimplified.vaibhav.dtuattendance.bregact" />
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+    </application>
+</manifest>
